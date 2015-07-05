@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+.icon {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  
+  -webkit-mask: url(check.svg) no-repeat 50% 50%;
+  mask: url(check.svg) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+
+.icon-animation { 
+  background: red;
+  -webkit-animation: 'first' 9.66s infinite linear;
+  animation: 'first' 9.66s infinite linear; 
+}
+
+@-webkit-keyframes 'first' {
+  0% { background-color: #33235B;}
+  16% { background-color: #D62229;  }
+  32% {	background-color: #E97639;  }
+  48% { background-color: #792042; }
+  60% { background-color: #33235B; }
+  72% { background-color: indigo; }
+  84% { background-color: violet; }
+}
+
+@keyframes 'first' {
+ 0% { background-color: #33235B;}
+  16% { background-color: #D62229;  }
+  32% {	background-color: #E97639;  }
+  48% { background-color: #792042; }
+  60% { background-color: #33235B; }
+  72% { background-color: indigo; }
+  84% { background-color: violet; }
+}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="icon icon-animation"></div>
+	<div class="icon icon-animation"></div>
+	<div class="icon icon-animation"></div>
+	<div class="icon icon-animation"></div>
+	<div class="icon icon-animation"></div>
+	<div class="icon icon-animation"></div>
+	<br>
+	<div class="icon icon-animation2"></div>
+	<div class="icon icon-animation2"></div>
+	<div class="icon icon-animation2"></div>
+	<div class="icon icon-animation2"></div>
+	<div class="icon icon-animation2"></div>
+	<div class="icon icon-animation2"></div>
+	<div class="icon icon-animation2"></div>
+</body>
+</html>
